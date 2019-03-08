@@ -23,3 +23,21 @@ sudo apt-get install python3-pip
 
 # jupyter
 sudo apt-get install jupyter-core
+
+# zoom
+(
+  mkdir /tmp/zoom
+  cd /tmp/zoom
+  wget https://zoom.us/client/latest/zoom_amd64.deb
+  sudo dpkg -i zoom_amd64.deb
+  # rm zoom_amd64.deb
+  sudo apt-get install -f
+)
+
+# bead
+(
+  mkdir -p ~/.local/bin
+  cd ~/.local/bin
+  wget https://github.com/e3krisztian/bead/releases/download/v0.0.2/bead
+  chmod +x bead
+)
