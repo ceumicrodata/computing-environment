@@ -29,9 +29,8 @@ sudo apt-get install jupyter-notebook
   mkdir /tmp/zoom
   cd /tmp/zoom
   wget https://zoom.us/client/latest/zoom_amd64.deb
-  sudo dpkg -i zoom_amd64.deb
-  # rm zoom_amd64.deb
-  sudo apt-get install -f
+  sudo dpkg -i zoom_amd64.deb || sudo apt-get install -f
+  rm zoom_amd64.deb
 )
 
 # bead
