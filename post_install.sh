@@ -22,7 +22,7 @@ sudo apt-get install tree
 sudo apt-get install python3-pip
 
 # jupyter
-sudo apt-get install jupyter-core
+sudo apt-get install jupyter-notebook
 
 # zoom
 (
