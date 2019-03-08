@@ -34,9 +34,15 @@ sudo apt-get install jupyter-notebook
 )
 
 # bead
+# this bead release depends on the 'python' name, and 18.04 no longer installs Python 2 by default
+
+sudo apt install python-minimal
 (
   mkdir -p ~/.local/bin
   cd ~/.local/bin
   wget https://github.com/e3krisztian/bead/releases/download/v0.0.2/bead
   chmod +x bead
 )
+
+# pipenv
+pip3 install --user pipenv
