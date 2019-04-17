@@ -46,3 +46,6 @@ sudo apt install python-minimal
 
 # pipenv
 pip3 install --user pipenv
+
+# system monitor - CPU, memory, net usage
+sudo apt install gnome-shell-extension-system-monitor
