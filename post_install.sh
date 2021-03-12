@@ -40,7 +40,7 @@ sudo apt install python-minimal
 (
   mkdir -p ~/.local/bin
   cd ~/.local/bin
-  wget https://github.com/e3krisztian/bead/releases/download/v0.0.2/bead
+  wget hhttps://github.com/e3krisztian/bead/releases/download/v0.8.1/bead
   chmod +x bead
 )
 
